@@ -1,0 +1,16 @@
+# Model configuration
+detector:
+  model: "yolov8n.pt"
+  confidence: 0.36
+  iou: 0.45
+
+# Tracker configuration  
+tracker:
+  iou_threshold: 0.3
+  max_age: 30
+  min_hits: 3
+
+# Video settings
+video:
+  fps: 30
+  sample_fps: 30  # Use all frames

@@ -1,0 +1,6145 @@
+{
+  "metadata": {
+    "pipeline": "World2Data Integrated Pipeline",
+    "components": {
+      "person1_ingest": "src/ingest/video_loader.py",
+      "person1_detection": "src/detection/yolo_detector.py",
+      "person1_tracking": "src/detection/bytetrack_tracker.py",
+      "person2_interaction": "src/interaction/iou_trigger.py",
+      "person2_state": "src/interaction/state_memory.py"
+    },
+    "total_frames": 181,
+    "fps": 30.0,
+    "processed_at": "2026-02-08T08:18:43.458205"
+  },
+  "video_info": {
+    "frames_dir": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames",
+    "frame_count": 181,
+    "fps": 30.0,
+    "width": 1280,
+    "height": 720,
+    "duration_seconds": 6.033333333333333
+  },
+  "track_summary": {
+    "total_tracks": 5,
+    "confirmed_tracks": 4,
+    "classes_tracked": [
+      "person",
+      "tv",
+      "truck",
+      "sink"
+    ],
+    "frames_processed": 181
+  },
+  "interaction_summary": {
+    "total_interactions": 0,
+    "unique_agent_object_pairs": 1
+  },
+  "state_transitions": [],
+  "interactions": [],
+  "frame_data": [
+    {
+      "frame_idx": 0,
+      "timestamp": 0.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0001.jpg",
+      "detections": {
+        "boxes": [
+          [
+            0.0,
+            8.9183349609375,
+            247.58799743652344,
+            256.371826171875
+          ]
+        ],
+        "scores": [
+          0.38739266991615295
+        ],
+        "class_names": [
+          "tv"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 1,
+      "timestamp": 0.03333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0002.jpg",
+      "detections": {
+        "boxes": [
+          [
+            0.0,
+            8.9183349609375,
+            247.58799743652344,
+            256.371826171875
+          ]
+        ],
+        "scores": [
+          0.38739266991615295
+        ],
+        "class_names": [
+          "tv"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 2,
+      "timestamp": 0.06666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0003.jpg",
+      "detections": {
+        "boxes": [
+          [
+            0.0,
+            8.537567138671875,
+            250.02574157714844,
+            258.1359558105469
+          ]
+        ],
+        "scores": [
+          0.37127354741096497
+        ],
+        "class_names": [
+          "tv"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 3,
+      "timestamp": 0.1,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0004.jpg",
+      "detections": {
+        "boxes": [
+          [
+            0.3485870361328125,
+            19.060089111328125,
+            251.07479858398438,
+            255.471435546875
+          ]
+        ],
+        "scores": [
+          0.5553450584411621
+        ],
+        "class_names": [
+          "tv"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 4,
+      "timestamp": 0.13333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0005.jpg",
+      "detections": {
+        "boxes": [
+          [
+            0.07427978515625,
+            18.45818328857422,
+            252.23526000976562,
+            260.8800048828125
+          ],
+          [
+            690.976806640625,
+            231.31690979003906,
+            814.90625,
+            409.093994140625
+          ]
+        ],
+        "scores": [
+          0.6521120667457581,
+          0.3623585104942322
+        ],
+        "class_names": [
+          "tv",
+          "truck"
+        ],
+        "track_ids": [
+          1,
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "tv_1"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 5,
+      "timestamp": 0.16666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0006.jpg",
+      "detections": {
+        "boxes": [
+          [
+            689.4493408203125,
+            229.4533233642578,
+            813.7042236328125,
+            410.71978759765625
+          ],
+          [
+            0.0,
+            10.347503662109375,
+            253.4131622314453,
+            266.02447509765625
+          ]
+        ],
+        "scores": [
+          0.4509645104408264,
+          0.39927488565444946
+        ],
+        "class_names": [
+          "truck",
+          "tv"
+        ],
+        "track_ids": [
+          null,
+          1
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "tv_1"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 6,
+      "timestamp": 0.2,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0007.jpg",
+      "detections": {
+        "boxes": [
+          [
+            687.499755859375,
+            228.8790740966797,
+            814.181396484375,
+            410.25750732421875
+          ],
+          [
+            0.0782012939453125,
+            15.807502746582031,
+            253.96844482421875,
+            262.7294921875
+          ]
+        ],
+        "scores": [
+          0.5405747890472412,
+          0.48766621947288513
+        ],
+        "class_names": [
+          "truck",
+          "tv"
+        ],
+        "track_ids": [
+          null,
+          1
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "tv_1"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 7,
+      "timestamp": 0.23333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0008.jpg",
+      "detections": {
+        "boxes": [
+          [
+            0.454925537109375,
+            18.6617431640625,
+            255.87994384765625,
+            260.47003173828125
+          ],
+          [
+            687.5364990234375,
+            229.92340087890625,
+            815.4261474609375,
+            409.7159423828125
+          ]
+        ],
+        "scores": [
+          0.6481336355209351,
+          0.5868096947669983
+        ],
+        "class_names": [
+          "tv",
+          "truck"
+        ],
+        "track_ids": [
+          1,
+          2
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "tv_1",
+        "truck_2"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 8,
+      "timestamp": 0.26666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0009.jpg",
+      "detections": {
+        "boxes": [
+          [
+            687.575927734375,
+            230.0176239013672,
+            816.642822265625,
+            408.42535400390625
+          ],
+          [
+            117.6199951171875,
+            75.8223648071289,
+            257.4125671386719,
+            260.0097351074219
+          ]
+        ],
+        "scores": [
+          0.4781405031681061,
+          0.44289058446884155
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          2,
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_2"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 9,
+      "timestamp": 0.3,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0010.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 10,
+      "timestamp": 0.3333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0011.jpg",
+      "detections": {
+        "boxes": [
+          [
+            124.51688385009766,
+            76.23847198486328,
+            261.4473571777344,
+            258.9935302734375
+          ]
+        ],
+        "scores": [
+          0.40765106678009033
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 11,
+      "timestamp": 0.36666666666666664,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0012.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 12,
+      "timestamp": 0.4,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0013.jpg",
+      "detections": {
+        "boxes": [
+          [
+            684.2777099609375,
+            226.90753173828125,
+            816.7432861328125,
+            406.5130615234375
+          ]
+        ],
+        "scores": [
+          0.3995448052883148
+        ],
+        "class_names": [
+          "truck"
+        ],
+        "track_ids": [
+          2
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_2"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 13,
+      "timestamp": 0.43333333333333335,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0014.jpg",
+      "detections": {
+        "boxes": [
+          [
+            685.6221923828125,
+            269.51141357421875,
+            815.9825439453125,
+            407.15264892578125
+          ]
+        ],
+        "scores": [
+          0.4814509153366089
+        ],
+        "class_names": [
+          "truck"
+        ],
+        "track_ids": [
+          2
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_2"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 14,
+      "timestamp": 0.4666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0015.jpg",
+      "detections": {
+        "boxes": [
+          [
+            683.7415161132812,
+            270.0503845214844,
+            816.3767700195312,
+            408.1935729980469
+          ]
+        ],
+        "scores": [
+          0.5540596842765808
+        ],
+        "class_names": [
+          "truck"
+        ],
+        "track_ids": [
+          2
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_2"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 15,
+      "timestamp": 0.5,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0016.jpg",
+      "detections": {
+        "boxes": [
+          [
+            681.8272705078125,
+            267.7392883300781,
+            817.9442138671875,
+            409.0039978027344
+          ]
+        ],
+        "scores": [
+          0.4784424602985382
+        ],
+        "class_names": [
+          "truck"
+        ],
+        "track_ids": [
+          2
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_2"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 16,
+      "timestamp": 0.5333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0017.jpg",
+      "detections": {
+        "boxes": [
+          [
+            98.26095581054688,
+            88.37787628173828,
+            272.2079162597656,
+            270.4371337890625
+          ],
+          [
+            769.8590087890625,
+            256.21563720703125,
+            815.482177734375,
+            414.34991455078125
+          ],
+          [
+            118.16889190673828,
+            364.933837890625,
+            343.30450439453125,
+            453.6142578125
+          ]
+        ],
+        "scores": [
+          0.47237786650657654,
+          0.45236891508102417,
+          0.38836607336997986
+        ],
+        "class_names": [
+          "person",
+          "person",
+          "sink"
+        ],
+        "track_ids": [
+          1,
+          null,
+          null
+        ]
+      },
+      "agents": [
+        "person_1"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 17,
+      "timestamp": 0.5666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0018.jpg",
+      "detections": {
+        "boxes": [
+          [
+            766.8916015625,
+            255.54705810546875,
+            815.19873046875,
+            417.2091064453125
+          ]
+        ],
+        "scores": [
+          0.40868788957595825
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 18,
+      "timestamp": 0.6,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0019.jpg",
+      "detections": {
+        "boxes": [
+          [
+            167.68246459960938,
+            104.67703247070312,
+            273.0722351074219,
+            278.2820739746094
+          ],
+          [
+            164.87782287597656,
+            364.7015380859375,
+            351.43310546875,
+            457.4017333984375
+          ],
+          [
+            778.7959594726562,
+            255.08673095703125,
+            814.8523559570312,
+            379.60614013671875
+          ]
+        ],
+        "scores": [
+          0.46799665689468384,
+          0.455463171005249,
+          0.43979761004447937
+        ],
+        "class_names": [
+          "person",
+          "sink",
+          "person"
+        ],
+        "track_ids": [
+          1,
+          null,
+          null
+        ]
+      },
+      "agents": [
+        "person_1"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 19,
+      "timestamp": 0.6333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0020.jpg",
+      "detections": {
+        "boxes": [
+          [
+            179.9158935546875,
+            113.48583984375,
+            274.39398193359375,
+            283.66204833984375
+          ],
+          [
+            185.43270874023438,
+            364.8160400390625,
+            352.7547912597656,
+            455.9339599609375
+          ],
+          [
+            778.0677490234375,
+            259.425537109375,
+            812.0115966796875,
+            371.83056640625
+          ]
+        ],
+        "scores": [
+          0.4503927528858185,
+          0.43715840578079224,
+          0.4168540835380554
+        ],
+        "class_names": [
+          "person",
+          "sink",
+          "person"
+        ],
+        "track_ids": [
+          1,
+          null,
+          null
+        ]
+      },
+      "agents": [
+        "person_1"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 20,
+      "timestamp": 0.6666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0021.jpg",
+      "detections": {
+        "boxes": [
+          [
+            207.734375,
+            366.7281494140625,
+            355.3245849609375,
+            453.84075927734375
+          ],
+          [
+            759.3231201171875,
+            266.947998046875,
+            810.4100341796875,
+            423.1485595703125
+          ]
+        ],
+        "scores": [
+          0.496522456407547,
+          0.40914347767829895
+        ],
+        "class_names": [
+          "sink",
+          "person"
+        ],
+        "track_ids": [
+          null,
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 21,
+      "timestamp": 0.7,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0022.jpg",
+      "detections": {
+        "boxes": [
+          [
+            224.9730987548828,
+            375.0687561035156,
+            359.47393798828125,
+            450.2137145996094
+          ],
+          [
+            770.6447143554688,
+            260.4397277832031,
+            809.2028198242188,
+            411.6096496582031
+          ]
+        ],
+        "scores": [
+          0.49828529357910156,
+          0.43849024176597595
+        ],
+        "class_names": [
+          "sink",
+          "person"
+        ],
+        "track_ids": [
+          3,
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "sink_3"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 22,
+      "timestamp": 0.7333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0023.jpg",
+      "detections": {
+        "boxes": [
+          [
+            774.5239868164062,
+            257.185546875,
+            807.3862915039062,
+            381.0284423828125
+          ]
+        ],
+        "scores": [
+          0.405844122171402
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 23,
+      "timestamp": 0.7666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0024.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 24,
+      "timestamp": 0.8,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0025.jpg",
+      "detections": {
+        "boxes": [
+          [
+            772.5433349609375,
+            261.58526611328125,
+            803.7642822265625,
+            385.02508544921875
+          ]
+        ],
+        "scores": [
+          0.40058231353759766
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 25,
+      "timestamp": 0.8333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0026.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 26,
+      "timestamp": 0.8666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0027.jpg",
+      "detections": {
+        "boxes": [
+          [
+            763.7015380859375,
+            251.3253173828125,
+            801.1256103515625,
+            376.33203125
+          ]
+        ],
+        "scores": [
+          0.4022720456123352
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 27,
+      "timestamp": 0.9,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0028.jpg",
+      "detections": {
+        "boxes": [
+          [
+            765.9995727539062,
+            251.57623291015625,
+            800.6257934570312,
+            374.8228759765625
+          ]
+        ],
+        "scores": [
+          0.3709743320941925
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 28,
+      "timestamp": 0.9333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0029.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 29,
+      "timestamp": 0.9666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0030.jpg",
+      "detections": {
+        "boxes": [
+          [
+            760.8557739257812,
+            287.12109375,
+            801.4006958007812,
+            432.4283447265625
+          ]
+        ],
+        "scores": [
+          0.38980361819267273
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 30,
+      "timestamp": 1.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0031.jpg",
+      "detections": {
+        "boxes": [
+          [
+            758.903564453125,
+            280.11993408203125,
+            803.330078125,
+            379.53411865234375
+          ]
+        ],
+        "scores": [
+          0.4134626090526581
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 31,
+      "timestamp": 1.0333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0032.jpg",
+      "detections": {
+        "boxes": [
+          [
+            751.857421875,
+            248.801513671875,
+            804.101806640625,
+            380.1439208984375
+          ]
+        ],
+        "scores": [
+          0.5244941115379333
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          null
+        ]
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 32,
+      "timestamp": 1.0666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0033.jpg",
+      "detections": {
+        "boxes": [
+          [
+            752.763916015625,
+            246.107666015625,
+            804.600830078125,
+            385.8011474609375
+          ]
+        ],
+        "scores": [
+          0.48527273535728455
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 33,
+      "timestamp": 1.1,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0034.jpg",
+      "detections": {
+        "boxes": [
+          [
+            741.6673583984375,
+            238.91510009765625,
+            805.1654052734375,
+            389.15301513671875
+          ]
+        ],
+        "scores": [
+          0.4653979539871216
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 34,
+      "timestamp": 1.1333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0035.jpg",
+      "detections": {
+        "boxes": [
+          [
+            745.053955078125,
+            235.5601806640625,
+            807.888671875,
+            395.9559326171875
+          ]
+        ],
+        "scores": [
+          0.41929036378860474
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 35,
+      "timestamp": 1.1666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0036.jpg",
+      "detections": {
+        "boxes": [
+          [
+            758.08837890625,
+            240.0225830078125,
+            812.152099609375,
+            398.2630615234375
+          ]
+        ],
+        "scores": [
+          0.5547502040863037
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 36,
+      "timestamp": 1.2,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0037.jpg",
+      "detections": {
+        "boxes": [
+          [
+            762.5479736328125,
+            239.097900390625,
+            815.5887451171875,
+            405.9151611328125
+          ]
+        ],
+        "scores": [
+          0.6683754324913025
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 37,
+      "timestamp": 1.2333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0038.jpg",
+      "detections": {
+        "boxes": [
+          [
+            761.78857421875,
+            239.1263427734375,
+            819.81591796875,
+            417.25177001953125
+          ]
+        ],
+        "scores": [
+          0.6230790615081787
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 38,
+      "timestamp": 1.2666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0039.jpg",
+      "detections": {
+        "boxes": [
+          [
+            765.4998779296875,
+            240.0562744140625,
+            827.1158447265625,
+            421.094970703125
+          ]
+        ],
+        "scores": [
+          0.5683990716934204
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 39,
+      "timestamp": 1.3,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0040.jpg",
+      "detections": {
+        "boxes": [
+          [
+            771.709716796875,
+            244.19509887695312,
+            833.4482421875,
+            403.0713806152344
+          ]
+        ],
+        "scores": [
+          0.5649805068969727
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 40,
+      "timestamp": 1.3333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0041.jpg",
+      "detections": {
+        "boxes": [
+          [
+            782.2232666015625,
+            244.30593872070312,
+            840.201171875,
+            414.7384338378906
+          ]
+        ],
+        "scores": [
+          0.5847004652023315
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 41,
+      "timestamp": 1.3666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0042.jpg",
+      "detections": {
+        "boxes": [
+          [
+            800.17578125,
+            246.6593017578125,
+            847.0751953125,
+            414.29998779296875
+          ]
+        ],
+        "scores": [
+          0.657855212688446
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 42,
+      "timestamp": 1.4,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0043.jpg",
+      "detections": {
+        "boxes": [
+          [
+            806.0785522460938,
+            250.07965087890625,
+            853.9296264648438,
+            417.245849609375
+          ]
+        ],
+        "scores": [
+          0.6227760314941406
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 43,
+      "timestamp": 1.4333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0044.jpg",
+      "detections": {
+        "boxes": [
+          [
+            815.4471435546875,
+            253.16156005859375,
+            859.4141845703125,
+            416.47308349609375
+          ],
+          [
+            0.649566650390625,
+            242.839111328125,
+            408.70068359375,
+            614.9867553710938
+          ]
+        ],
+        "scores": [
+          0.7029730081558228,
+          0.38841354846954346
+        ],
+        "class_names": [
+          "person",
+          "bed"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 44,
+      "timestamp": 1.4666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0045.jpg",
+      "detections": {
+        "boxes": [
+          [
+            818.1793212890625,
+            252.1080322265625,
+            867.5574951171875,
+            421.44970703125
+          ],
+          [
+            0.804168701171875,
+            242.757568359375,
+            424.2603759765625,
+            613.9548950195312
+          ]
+        ],
+        "scores": [
+          0.6903054118156433,
+          0.42619088292121887
+        ],
+        "class_names": [
+          "person",
+          "bed"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 45,
+      "timestamp": 1.5,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0046.jpg",
+      "detections": {
+        "boxes": [
+          [
+            828.3165283203125,
+            252.23184204101562,
+            878.61962890625,
+            420.6885681152344
+          ]
+        ],
+        "scores": [
+          0.7184656262397766
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 46,
+      "timestamp": 1.5333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0047.jpg",
+      "detections": {
+        "boxes": [
+          [
+            835.8468017578125,
+            250.84014892578125,
+            890.2618408203125,
+            418.15045166015625
+          ],
+          [
+            804.22119140625,
+            255.86834716796875,
+            851.31884765625,
+            427.08062744140625
+          ]
+        ],
+        "scores": [
+          0.7165578007698059,
+          0.4155125021934509
+        ],
+        "class_names": [
+          "person",
+          "person"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 47,
+      "timestamp": 1.5666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0048.jpg",
+      "detections": {
+        "boxes": [
+          [
+            842.2651977539062,
+            246.68096923828125,
+            898.3867797851562,
+            417.009033203125
+          ]
+        ],
+        "scores": [
+          0.7343205809593201
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 48,
+      "timestamp": 1.6,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0049.jpg",
+      "detections": {
+        "boxes": [
+          [
+            851.4443969726562,
+            243.499267578125,
+            907.2584838867188,
+            416.7003173828125
+          ],
+          [
+            818.1543579101562,
+            252.48223876953125,
+            866.3906860351562,
+            427.249755859375
+          ]
+        ],
+        "scores": [
+          0.7945985794067383,
+          0.39408838748931885
+        ],
+        "class_names": [
+          "person",
+          "person"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 49,
+      "timestamp": 1.6333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0050.jpg",
+      "detections": {
+        "boxes": [
+          [
+            858.3741455078125,
+            239.62353515625,
+            917.6365966796875,
+            414.3043212890625
+          ]
+        ],
+        "scores": [
+          0.7149002552032471
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 50,
+      "timestamp": 1.6666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0051.jpg",
+      "detections": {
+        "boxes": [
+          [
+            864.8779296875,
+            238.62823486328125,
+            923.983154296875,
+            418.28253173828125
+          ]
+        ],
+        "scores": [
+          0.7263055443763733
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 51,
+      "timestamp": 1.7,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0052.jpg",
+      "detections": {
+        "boxes": [
+          [
+            869.84423828125,
+            239.6334228515625,
+            933.416015625,
+            417.2088623046875
+          ]
+        ],
+        "scores": [
+          0.7464066743850708
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 52,
+      "timestamp": 1.7333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0053.jpg",
+      "detections": {
+        "boxes": [
+          [
+            878.291015625,
+            239.357421875,
+            940.18115234375,
+            415.30859375
+          ]
+        ],
+        "scores": [
+          0.6942733526229858
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 53,
+      "timestamp": 1.7666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0054.jpg",
+      "detections": {
+        "boxes": [
+          [
+            885.4267578125,
+            242.2777099609375,
+            947.85498046875,
+            416.9195556640625
+          ]
+        ],
+        "scores": [
+          0.6383000016212463
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 54,
+      "timestamp": 1.8,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0055.jpg",
+      "detections": {
+        "boxes": [
+          [
+            892.556884765625,
+            244.09808349609375,
+            957.9873046875,
+            419.69573974609375
+          ]
+        ],
+        "scores": [
+          0.6382211446762085
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 55,
+      "timestamp": 1.8333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0056.jpg",
+      "detections": {
+        "boxes": [
+          [
+            899.8961791992188,
+            241.47268676757812,
+            959.8016967773438,
+            416.7533874511719
+          ]
+        ],
+        "scores": [
+          0.6319853663444519
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 56,
+      "timestamp": 1.8666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0057.jpg",
+      "detections": {
+        "boxes": [
+          [
+            903.215576171875,
+            240.1895751953125,
+            965.5693359375,
+            415.5643310546875
+          ]
+        ],
+        "scores": [
+          0.7181075215339661
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 57,
+      "timestamp": 1.9,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0058.jpg",
+      "detections": {
+        "boxes": [
+          [
+            912.0877685546875,
+            236.62493896484375,
+            969.250244140625,
+            412.5618896484375
+          ]
+        ],
+        "scores": [
+          0.779876172542572
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 58,
+      "timestamp": 1.9333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0059.jpg",
+      "detections": {
+        "boxes": [
+          [
+            913.604736328125,
+            235.3165283203125,
+            980.971435546875,
+            412.6092529296875
+          ]
+        ],
+        "scores": [
+          0.7734578251838684
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 59,
+      "timestamp": 1.9666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0060.jpg",
+      "detections": {
+        "boxes": [
+          [
+            916.7476806640625,
+            236.57110595703125,
+            982.0799560546875,
+            414.26776123046875
+          ]
+        ],
+        "scores": [
+          0.7707724571228027
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 60,
+      "timestamp": 2.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0061.jpg",
+      "detections": {
+        "boxes": [
+          [
+            921.5458984375,
+            236.94281005859375,
+            983.82470703125,
+            417.59698486328125
+          ]
+        ],
+        "scores": [
+          0.7746112942695618
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 61,
+      "timestamp": 2.033333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0062.jpg",
+      "detections": {
+        "boxes": [
+          [
+            924.4951171875,
+            240.61373901367188,
+            986.279296875,
+            419.0649108886719
+          ],
+          [
+            731.6710205078125,
+            195.24224853515625,
+            898.9114990234375,
+            421.964599609375
+          ]
+        ],
+        "scores": [
+          0.7997182607650757,
+          0.3919238746166229
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 62,
+      "timestamp": 2.066666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0063.jpg",
+      "detections": {
+        "boxes": [
+          [
+            925.7665405273438,
+            241.85418701171875,
+            990.2640991210938,
+            420.1851806640625
+          ]
+        ],
+        "scores": [
+          0.819995105266571
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 63,
+      "timestamp": 2.1,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0064.jpg",
+      "detections": {
+        "boxes": [
+          [
+            929.2711181640625,
+            247.52740478515625,
+            995.5672607421875,
+            422.18658447265625
+          ]
+        ],
+        "scores": [
+          0.8300058841705322
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 64,
+      "timestamp": 2.1333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0065.jpg",
+      "detections": {
+        "boxes": [
+          [
+            931.843505859375,
+            250.8040771484375,
+            996.9656982421875,
+            423.2703857421875
+          ],
+          [
+            735.63427734375,
+            200.68609619140625,
+            913.0950927734375,
+            428.672119140625
+          ]
+        ],
+        "scores": [
+          0.8331665396690369,
+          0.6808248162269592
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 65,
+      "timestamp": 2.1666666666666665,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0066.jpg",
+      "detections": {
+        "boxes": [
+          [
+            935.6737060546875,
+            255.20819091796875,
+            998.740966796875,
+            424.57989501953125
+          ],
+          [
+            737.9171142578125,
+            203.66558837890625,
+            915.21142578125,
+            435.1451416015625
+          ]
+        ],
+        "scores": [
+          0.8171218633651733,
+          0.7132283449172974
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 66,
+      "timestamp": 2.2,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0067.jpg",
+      "detections": {
+        "boxes": [
+          [
+            938.559814453125,
+            255.49169921875,
+            1001.62744140625,
+            426.1480712890625
+          ],
+          [
+            740.0048828125,
+            206.4805145263672,
+            918.06591796875,
+            441.22723388671875
+          ]
+        ],
+        "scores": [
+          0.7950775027275085,
+          0.6682711839675903
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 67,
+      "timestamp": 2.2333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0068.jpg",
+      "detections": {
+        "boxes": [
+          [
+            938.5679931640625,
+            257.19598388671875,
+            1003.6387939453125,
+            428.21575927734375
+          ],
+          [
+            742.907470703125,
+            208.00054931640625,
+            924.431884765625,
+            443.77862548828125
+          ]
+        ],
+        "scores": [
+          0.7870121002197266,
+          0.3830415606498718
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 68,
+      "timestamp": 2.2666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0069.jpg",
+      "detections": {
+        "boxes": [
+          [
+            940.283203125,
+            257.67669677734375,
+            1005.73388671875,
+            429.25921630859375
+          ]
+        ],
+        "scores": [
+          0.7693045735359192
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 69,
+      "timestamp": 2.3,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0070.jpg",
+      "detections": {
+        "boxes": [
+          [
+            945.0206298828125,
+            257.39788818359375,
+            1009.9066162109375,
+            432.306640625
+          ],
+          [
+            745.1962890625,
+            212.16983032226562,
+            927.964599609375,
+            452.0304870605469
+          ]
+        ],
+        "scores": [
+          0.7777959108352661,
+          0.4339596629142761
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 70,
+      "timestamp": 2.3333333333333335,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0071.jpg",
+      "detections": {
+        "boxes": [
+          [
+            946.9678955078125,
+            257.51739501953125,
+            1012.9212646484375,
+            434.65625
+          ],
+          [
+            747.0489501953125,
+            215.56687927246094,
+            931.9871826171875,
+            454.9293212890625
+          ]
+        ],
+        "scores": [
+          0.8508699536323547,
+          0.42507869005203247
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 71,
+      "timestamp": 2.3666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0072.jpg",
+      "detections": {
+        "boxes": [
+          [
+            949.386962890625,
+            257.73162841796875,
+            1013.1552734375,
+            435.90899658203125
+          ]
+        ],
+        "scores": [
+          0.8480372428894043
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 72,
+      "timestamp": 2.4,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0073.jpg",
+      "detections": {
+        "boxes": [
+          [
+            951.8233642578125,
+            261.22137451171875,
+            1014.3421630859375,
+            438.935791015625
+          ]
+        ],
+        "scores": [
+          0.8052769899368286
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 73,
+      "timestamp": 2.433333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0074.jpg",
+      "detections": {
+        "boxes": [
+          [
+            952.5721435546875,
+            264.1100769042969,
+            1017.6253662109375,
+            439.5054016113281
+          ]
+        ],
+        "scores": [
+          0.7813892364501953
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 74,
+      "timestamp": 2.466666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0075.jpg",
+      "detections": {
+        "boxes": [
+          [
+            955.284423828125,
+            265.17523193359375,
+            1017.465087890625,
+            437.93341064453125
+          ]
+        ],
+        "scores": [
+          0.7796463370323181
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 75,
+      "timestamp": 2.5,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0076.jpg",
+      "detections": {
+        "boxes": [
+          [
+            955.868896484375,
+            265.4395751953125,
+            1015.443359375,
+            437.84991455078125
+          ]
+        ],
+        "scores": [
+          0.7412163019180298
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 76,
+      "timestamp": 2.533333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0077.jpg",
+      "detections": {
+        "boxes": [
+          [
+            955.4636840820312,
+            266.90869140625,
+            1016.0608520507812,
+            437.9508056640625
+          ]
+        ],
+        "scores": [
+          0.7354344725608826
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 77,
+      "timestamp": 2.566666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0078.jpg",
+      "detections": {
+        "boxes": [
+          [
+            950.8358154296875,
+            270.55938720703125,
+            1012.7364501953125,
+            434.00164794921875
+          ],
+          [
+            737.3804931640625,
+            224.01425170898438,
+            930.3387451171875,
+            468.4887390136719
+          ]
+        ],
+        "scores": [
+          0.707392692565918,
+          0.41963812708854675
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 78,
+      "timestamp": 2.6,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0079.jpg",
+      "detections": {
+        "boxes": [
+          [
+            945.6070556640625,
+            271.844482421875,
+            1003.8514404296875,
+            436.3187255859375
+          ],
+          [
+            727.499755859375,
+            225.98780822753906,
+            932.927490234375,
+            474.8587646484375
+          ]
+        ],
+        "scores": [
+          0.6988340020179749,
+          0.6705693006515503
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 79,
+      "timestamp": 2.6333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0080.jpg",
+      "detections": {
+        "boxes": [
+          [
+            944.0170288085938,
+            272.209228515625,
+            1000.3052368164062,
+            436.131591796875
+          ],
+          [
+            726.9512939453125,
+            224.4614715576172,
+            921.1351318359375,
+            475.08697509765625
+          ],
+          [
+            722.002685546875,
+            104.779052734375,
+            1012.567626953125,
+            477.5098876953125
+          ]
+        ],
+        "scores": [
+          0.6787559390068054,
+          0.4338071942329407,
+          0.3601248264312744
+        ],
+        "class_names": [
+          "person",
+          "truck",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 80,
+      "timestamp": 2.6666666666666665,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0081.jpg",
+      "detections": {
+        "boxes": [
+          [
+            939.5892333984375,
+            271.4757385253906,
+            996.4661865234375,
+            439.0228576660156
+          ],
+          [
+            722.37109375,
+            225.7581329345703,
+            915.22265625,
+            476.14312744140625
+          ]
+        ],
+        "scores": [
+          0.6816639304161072,
+          0.5433631539344788
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 81,
+      "timestamp": 2.7,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0082.jpg",
+      "detections": {
+        "boxes": [
+          [
+            932.925048828125,
+            270.5526123046875,
+            989.2353515625,
+            435.74359130859375
+          ],
+          [
+            714.6096801757812,
+            110.51290893554688,
+            996.0717163085938,
+            480.6571350097656
+          ]
+        ],
+        "scores": [
+          0.68470299243927,
+          0.37888383865356445
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 82,
+      "timestamp": 2.7333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0083.jpg",
+      "detections": {
+        "boxes": [
+          [
+            711.1615600585938,
+            116.62094116210938,
+            988.8916625976562,
+            482.6431579589844
+          ],
+          [
+            923.2708129882812,
+            268.4334716796875,
+            985.6342163085938,
+            433.415283203125
+          ]
+        ],
+        "scores": [
+          0.6609086394309998,
+          0.6542754173278809
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 83,
+      "timestamp": 2.7666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0084.jpg",
+      "detections": {
+        "boxes": [
+          [
+            706.5904541015625,
+            227.70486450195312,
+            897.908447265625,
+            482.8124694824219
+          ],
+          [
+            918.7125244140625,
+            266.24493408203125,
+            978.2176513671875,
+            431.09075927734375
+          ]
+        ],
+        "scores": [
+          0.4107624888420105,
+          0.36345598101615906
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 84,
+      "timestamp": 2.8,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0085.jpg",
+      "detections": {
+        "boxes": [
+          [
+            697.2213134765625,
+            120.90937805175781,
+            973.7305908203125,
+            486.06134033203125
+          ],
+          [
+            908.9496459960938,
+            266.37872314453125,
+            968.4157104492188,
+            429.39703369140625
+          ]
+        ],
+        "scores": [
+          0.5842602849006653,
+          0.5021706819534302
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 85,
+      "timestamp": 2.8333333333333335,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0086.jpg",
+      "detections": {
+        "boxes": [
+          [
+            900.1866455078125,
+            265.4066162109375,
+            961.60546875,
+            427.995361328125
+          ],
+          [
+            689.5687255859375,
+            228.93955993652344,
+            890.5386962890625,
+            485.111572265625
+          ]
+        ],
+        "scores": [
+          0.6670397520065308,
+          0.3684702515602112
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 86,
+      "timestamp": 2.8666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0087.jpg",
+      "detections": {
+        "boxes": [
+          [
+            891.3362426757812,
+            263.62548828125,
+            950.3223266601562,
+            424.42486572265625
+          ]
+        ],
+        "scores": [
+          0.5189122557640076
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 87,
+      "timestamp": 2.9,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0088.jpg",
+      "detections": {
+        "boxes": [
+          [
+            670.3759765625,
+            120.11358642578125,
+            950.373779296875,
+            479.22698974609375
+          ]
+        ],
+        "scores": [
+          0.4841078221797943
+        ],
+        "class_names": [
+          "truck"
+        ],
+        "track_ids": [
+          5
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 88,
+      "timestamp": 2.933333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0089.jpg",
+      "detections": {
+        "boxes": [
+          [
+            878.6902465820312,
+            256.6552734375,
+            935.3152465820312,
+            410.556884765625
+          ]
+        ],
+        "scores": [
+          0.6720982789993286
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 89,
+      "timestamp": 2.966666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0090.jpg",
+      "detections": {
+        "boxes": [
+          [
+            876.3056030273438,
+            252.18121337890625,
+            935.8392944335938,
+            404.52996826171875
+          ],
+          [
+            659.901123046875,
+            203.84075927734375,
+            882.4703369140625,
+            472.67694091796875
+          ]
+        ],
+        "scores": [
+          0.6939021348953247,
+          0.4161991477012634
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 90,
+      "timestamp": 3.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0091.jpg",
+      "detections": {
+        "boxes": [
+          [
+            873.4974365234375,
+            245.311767578125,
+            932.52294921875,
+            397.53070068359375
+          ],
+          [
+            653.0684814453125,
+            106.59159851074219,
+            942.6473388671875,
+            468.52569580078125
+          ]
+        ],
+        "scores": [
+          0.6376069188117981,
+          0.4223785102367401
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 91,
+      "timestamp": 3.033333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0092.jpg",
+      "detections": {
+        "boxes": [
+          [
+            871.7503662109375,
+            241.03558349609375,
+            926.8204345703125,
+            389.76434326171875
+          ],
+          [
+            652.7939453125,
+            104.87577819824219,
+            940.117919921875,
+            464.90875244140625
+          ]
+        ],
+        "scores": [
+          0.5443400144577026,
+          0.44074806571006775
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 92,
+      "timestamp": 3.066666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0093.jpg",
+      "detections": {
+        "boxes": [
+          [
+            869.118408203125,
+            233.1585693359375,
+            923.4708251953125,
+            382.2734375
+          ]
+        ],
+        "scores": [
+          0.532189130783081
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 93,
+      "timestamp": 3.1,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0094.jpg",
+      "detections": {
+        "boxes": [
+          [
+            867.0904541015625,
+            225.78646850585938,
+            917.2877197265625,
+            372.8199157714844
+          ]
+        ],
+        "scores": [
+          0.60966956615448
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 94,
+      "timestamp": 3.1333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0095.jpg",
+      "detections": {
+        "boxes": [
+          [
+            640.6572265625,
+            176.37832641601562,
+            856.170166015625,
+            440.3132019042969
+          ],
+          [
+            867.1238403320312,
+            207.954345703125,
+            925.0071411132812,
+            366.34625244140625
+          ]
+        ],
+        "scores": [
+          0.5088611245155334,
+          0.5078357458114624
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 95,
+      "timestamp": 3.1666666666666665,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0096.jpg",
+      "detections": {
+        "boxes": [
+          [
+            871.770751953125,
+            208.89599609375,
+            928.447509765625,
+            359.23931884765625
+          ]
+        ],
+        "scores": [
+          0.5888178944587708
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 96,
+      "timestamp": 3.2,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0097.jpg",
+      "detections": {
+        "boxes": [
+          [
+            875.92431640625,
+            200.79074096679688,
+            938.0205078125,
+            350.8912658691406
+          ]
+        ],
+        "scores": [
+          0.6631457209587097
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 97,
+      "timestamp": 3.2333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0098.jpg",
+      "detections": {
+        "boxes": [
+          [
+            882.8170166015625,
+            193.1741485595703,
+            945.0491943359375,
+            342.83123779296875
+          ],
+          [
+            652.02392578125,
+            156.5501708984375,
+            868.6678466796875,
+            420.27984619140625
+          ]
+        ],
+        "scores": [
+          0.4822342097759247,
+          0.3870317339897156
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 98,
+      "timestamp": 3.2666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0099.jpg",
+      "detections": {
+        "boxes": [
+          [
+            893.202392578125,
+            185.8385009765625,
+            959.7681884765625,
+            339.6083984375
+          ]
+        ],
+        "scores": [
+          0.5740554928779602
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 99,
+      "timestamp": 3.3,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0100.jpg",
+      "detections": {
+        "boxes": [
+          [
+            664.1896362304688,
+            140.55889892578125,
+            884.0468139648438,
+            411.36517333984375
+          ]
+        ],
+        "scores": [
+          0.4905216097831726
+        ],
+        "class_names": [
+          "truck"
+        ],
+        "track_ids": [
+          5
+        ]
+      },
+      "agents": [],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 100,
+      "timestamp": 3.3333333333333335,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0101.jpg",
+      "detections": {
+        "boxes": [
+          [
+            910.5474853515625,
+            170.961181640625,
+            958.7191162109375,
+            329.6038818359375
+          ]
+        ],
+        "scores": [
+          0.4393133819103241
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 101,
+      "timestamp": 3.3666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0102.jpg",
+      "detections": {
+        "boxes": [
+          [
+            915.4940795898438,
+            166.7710723876953,
+            964.2976684570312,
+            326.06195068359375
+          ]
+        ],
+        "scores": [
+          0.5474069118499756
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 102,
+      "timestamp": 3.4,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0103.jpg",
+      "detections": {
+        "boxes": [
+          [
+            922.0291748046875,
+            169.12322998046875,
+            994.1751708984375,
+            325.003662109375
+          ]
+        ],
+        "scores": [
+          0.5700547099113464
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 103,
+      "timestamp": 3.433333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0104.jpg",
+      "detections": {
+        "boxes": [
+          [
+            924.349365234375,
+            161.8562469482422,
+            972.935546875,
+            322.39117431640625
+          ]
+        ],
+        "scores": [
+          0.4910909831523895
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 104,
+      "timestamp": 3.466666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0105.jpg",
+      "detections": {
+        "boxes": [
+          [
+            930.1656494140625,
+            144.22950744628906,
+            1008.5133056640625,
+            321.2276611328125
+          ]
+        ],
+        "scores": [
+          0.37386608123779297
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 105,
+      "timestamp": 3.5,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0106.jpg",
+      "detections": {
+        "boxes": [
+          [
+            937.6104736328125,
+            172.49957275390625,
+            982.8809814453125,
+            321.989501953125
+          ]
+        ],
+        "scores": [
+          0.5124256014823914
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 106,
+      "timestamp": 3.533333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0107.jpg",
+      "detections": {
+        "boxes": [
+          [
+            938.5372924804688,
+            166.0849151611328,
+            998.9523315429688,
+            324.35931396484375
+          ]
+        ],
+        "scores": [
+          0.46688205003738403
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 107,
+      "timestamp": 3.566666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0108.jpg",
+      "detections": {
+        "boxes": [
+          [
+            942.134521484375,
+            177.172607421875,
+            1017.400146484375,
+            328.941162109375
+          ],
+          [
+            678.0811767578125,
+            135.72152709960938,
+            928.9515380859375,
+            412.9665222167969
+          ]
+        ],
+        "scores": [
+          0.544025719165802,
+          0.4380896985530853
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 108,
+      "timestamp": 3.6,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0109.jpg",
+      "detections": {
+        "boxes": [
+          [
+            943.727783203125,
+            179.2910614013672,
+            1020.640869140625,
+            333.27630615234375
+          ],
+          [
+            674.7607421875,
+            136.68653869628906,
+            924.36181640625,
+            417.9632568359375
+          ]
+        ],
+        "scores": [
+          0.5979316830635071,
+          0.5444735884666443
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 109,
+      "timestamp": 3.6333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0110.jpg",
+      "detections": {
+        "boxes": [
+          [
+            953.3959350585938,
+            187.4281768798828,
+            1018.5065307617188,
+            335.85992431640625
+          ],
+          [
+            675.8775634765625,
+            139.46270751953125,
+            926.843505859375,
+            423.9005126953125
+          ]
+        ],
+        "scores": [
+          0.7312992811203003,
+          0.5753478407859802
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 110,
+      "timestamp": 3.6666666666666665,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0111.jpg",
+      "detections": {
+        "boxes": [
+          [
+            959.3087158203125,
+            192.10931396484375,
+            1019.8260498046875,
+            339.66143798828125
+          ],
+          [
+            681.3987426757812,
+            144.20567321777344,
+            928.8041381835938,
+            426.931396484375
+          ]
+        ],
+        "scores": [
+          0.6737443804740906,
+          0.6630417704582214
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 111,
+      "timestamp": 3.7,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0112.jpg",
+      "detections": {
+        "boxes": [
+          [
+            683.4576416015625,
+            144.353271484375,
+            931.4168701171875,
+            430.99908447265625
+          ],
+          [
+            959.57080078125,
+            197.53460693359375,
+            1025.99462890625,
+            342.93255615234375
+          ]
+        ],
+        "scores": [
+          0.7115209698677063,
+          0.6480169296264648
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 112,
+      "timestamp": 3.7333333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0113.jpg",
+      "detections": {
+        "boxes": [
+          [
+            965.6475830078125,
+            202.3321533203125,
+            1025.4801025390625,
+            347.60858154296875
+          ],
+          [
+            682.7703857421875,
+            148.69448852539062,
+            935.5059814453125,
+            437.1361389160156
+          ]
+        ],
+        "scores": [
+          0.6837849020957947,
+          0.6249846816062927
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 113,
+      "timestamp": 3.7666666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0114.jpg",
+      "detections": {
+        "boxes": [
+          [
+            969.423828125,
+            207.0380859375,
+            1029.073974609375,
+            349.78753662109375
+          ],
+          [
+            683.5651245117188,
+            153.96136474609375,
+            936.1358032226562,
+            444.05352783203125
+          ]
+        ],
+        "scores": [
+          0.6779733896255493,
+          0.6548960208892822
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 114,
+      "timestamp": 3.8,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0115.jpg",
+      "detections": {
+        "boxes": [
+          [
+            973.932373046875,
+            209.84963989257812,
+            1033.85498046875,
+            355.2745666503906
+          ],
+          [
+            685.0234375,
+            156.42901611328125,
+            938.0250244140625,
+            450.82757568359375
+          ]
+        ],
+        "scores": [
+          0.7249373197555542,
+          0.5472242832183838
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 115,
+      "timestamp": 3.8333333333333335,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0116.jpg",
+      "detections": {
+        "boxes": [
+          [
+            980.142822265625,
+            215.57269287109375,
+            1036.5816650390625,
+            357.32159423828125
+          ],
+          [
+            684.1136474609375,
+            159.60809326171875,
+            939.7994384765625,
+            456.5152587890625
+          ]
+        ],
+        "scores": [
+          0.7390345335006714,
+          0.5363565683364868
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 116,
+      "timestamp": 3.8666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0117.jpg",
+      "detections": {
+        "boxes": [
+          [
+            983.537353515625,
+            217.30422973632812,
+            1040.041259765625,
+            363.0246887207031
+          ],
+          [
+            682.890625,
+            161.867431640625,
+            941.5914306640625,
+            462.4862060546875
+          ]
+        ],
+        "scores": [
+          0.7481275200843811,
+          0.5920794010162354
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 117,
+      "timestamp": 3.9,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0118.jpg",
+      "detections": {
+        "boxes": [
+          [
+            990.044921875,
+            224.5837860107422,
+            1042.721435546875,
+            365.27166748046875
+          ],
+          [
+            682.88818359375,
+            168.9062042236328,
+            946.4697265625,
+            470.22637939453125
+          ]
+        ],
+        "scores": [
+          0.6650513410568237,
+          0.5343278050422668
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 118,
+      "timestamp": 3.933333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0119.jpg",
+      "detections": {
+        "boxes": [
+          [
+            996.944091796875,
+            229.4842529296875,
+            1047.382568359375,
+            372.93572998046875
+          ],
+          [
+            683.081298828125,
+            169.3376007080078,
+            954.4169921875,
+            477.48480224609375
+          ]
+        ],
+        "scores": [
+          0.7009169459342957,
+          0.5106812119483948
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 119,
+      "timestamp": 3.966666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0120.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1001.0038452148438,
+            234.0552978515625,
+            1049.55810546875,
+            377.7257080078125
+          ],
+          [
+            681.50390625,
+            165.46929931640625,
+            953.82861328125,
+            484.2313232421875
+          ]
+        ],
+        "scores": [
+          0.6806252002716064,
+          0.5872310996055603
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 120,
+      "timestamp": 4.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0121.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1005.09423828125,
+            240.23452758789062,
+            1060.7978515625,
+            383.3356628417969
+          ],
+          [
+            678.7030029296875,
+            178.52020263671875,
+            956.5565185546875,
+            487.8731689453125
+          ]
+        ],
+        "scores": [
+          0.7111934423446655,
+          0.6806151866912842
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 121,
+      "timestamp": 4.033333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0122.jpg",
+      "detections": {
+        "boxes": [
+          [
+            678.633056640625,
+            185.807861328125,
+            958.8807373046875,
+            491.46142578125
+          ],
+          [
+            1014.6866455078125,
+            243.1590576171875,
+            1063.6800537109375,
+            389.383544921875
+          ]
+        ],
+        "scores": [
+          0.7598469257354736,
+          0.7211897373199463
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 122,
+      "timestamp": 4.066666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0123.jpg",
+      "detections": {
+        "boxes": [
+          [
+            678.111328125,
+            186.0179443359375,
+            963.141357421875,
+            494.1087646484375
+          ],
+          [
+            1020.0868530273438,
+            244.43609619140625,
+            1069.5107421875,
+            388.56610107421875
+          ]
+        ],
+        "scores": [
+          0.7759924530982971,
+          0.7105218768119812
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 123,
+      "timestamp": 4.1,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0124.jpg",
+      "detections": {
+        "boxes": [
+          [
+            677.4407348632812,
+            184.07086181640625,
+            967.9066772460938,
+            496.5609130859375
+          ],
+          [
+            1027.931884765625,
+            244.66436767578125,
+            1080.45849609375,
+            389.07489013671875
+          ]
+        ],
+        "scores": [
+          0.765526294708252,
+          0.6743716597557068
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 124,
+      "timestamp": 4.133333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0125.jpg",
+      "detections": {
+        "boxes": [
+          [
+            676.396240234375,
+            180.85791015625,
+            973.124267578125,
+            497.3795166015625
+          ],
+          [
+            1034.809326171875,
+            244.4449462890625,
+            1085.807861328125,
+            386.744873046875
+          ]
+        ],
+        "scores": [
+          0.7490004301071167,
+          0.6021369099617004
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 125,
+      "timestamp": 4.166666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0126.jpg",
+      "detections": {
+        "boxes": [
+          [
+            675.870849609375,
+            180.08387756347656,
+            972.34912109375,
+            497.5882568359375
+          ],
+          [
+            1041.86767578125,
+            241.70037841796875,
+            1098.3505859375,
+            385.9351806640625
+          ]
+        ],
+        "scores": [
+          0.718993604183197,
+          0.678849458694458
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 126,
+      "timestamp": 4.2,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0127.jpg",
+      "detections": {
+        "boxes": [
+          [
+            674.4523315429688,
+            178.97203063964844,
+            977.6301879882812,
+            498.573486328125
+          ],
+          [
+            1050.169189453125,
+            242.139892578125,
+            1103.313232421875,
+            385.723876953125
+          ]
+        ],
+        "scores": [
+          0.7210223078727722,
+          0.7074488997459412
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 127,
+      "timestamp": 4.233333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0128.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1055.29296875,
+            240.19195556640625,
+            1112.8173828125,
+            383.8580322265625
+          ],
+          [
+            671.7041015625,
+            177.3961181640625,
+            985.4432373046875,
+            500.562255859375
+          ]
+        ],
+        "scores": [
+          0.6781715154647827,
+          0.6655846238136292
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 128,
+      "timestamp": 4.266666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0129.jpg",
+      "detections": {
+        "boxes": [
+          [
+            667.1337890625,
+            175.52593994140625,
+            986.945556640625,
+            500.9583740234375
+          ],
+          [
+            1061.2845458984375,
+            242.43515014648438,
+            1120.5963134765625,
+            384.3145446777344
+          ]
+        ],
+        "scores": [
+          0.7944273948669434,
+          0.7158148884773254
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 129,
+      "timestamp": 4.3,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0130.jpg",
+      "detections": {
+        "boxes": [
+          [
+            648.1268310546875,
+            170.98509216308594,
+            983.606201171875,
+            501.013916015625
+          ],
+          [
+            1064.50634765625,
+            240.98565673828125,
+            1127.167236328125,
+            384.19989013671875
+          ]
+        ],
+        "scores": [
+          0.7388529181480408,
+          0.6648176908493042
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 130,
+      "timestamp": 4.333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0131.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1065.709716796875,
+            239.04058837890625,
+            1135.145751953125,
+            385.76922607421875
+          ],
+          [
+            636.1734619140625,
+            166.55133056640625,
+            987.4722900390625,
+            500.50653076171875
+          ]
+        ],
+        "scores": [
+          0.6692147850990295,
+          0.6304271817207336
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 131,
+      "timestamp": 4.366666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0132.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1066.717041015625,
+            235.11590576171875,
+            1140.45068359375,
+            384.34588623046875
+          ],
+          [
+            635.1123046875,
+            161.82098388671875,
+            988.192138671875,
+            499.6904296875
+          ]
+        ],
+        "scores": [
+          0.6900540590286255,
+          0.628818154335022
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 132,
+      "timestamp": 4.4,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0133.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1068.595703125,
+            233.44284057617188,
+            1145.242919921875,
+            381.1218566894531
+          ],
+          [
+            638.90625,
+            157.50421142578125,
+            997.045166015625,
+            500.570556640625
+          ]
+        ],
+        "scores": [
+          0.6399804949760437,
+          0.581214189529419
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 133,
+      "timestamp": 4.433333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0134.jpg",
+      "detections": {
+        "boxes": [
+          [
+            638.26416015625,
+            152.8410186767578,
+            985.197998046875,
+            500.48406982421875
+          ],
+          [
+            1068.7890625,
+            231.4962615966797,
+            1145.801025390625,
+            378.56732177734375
+          ]
+        ],
+        "scores": [
+          0.699877142906189,
+          0.6957244277000427
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 134,
+      "timestamp": 4.466666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0135.jpg",
+      "detections": {
+        "boxes": [
+          [
+            628.6435546875,
+            151.21571350097656,
+            981.702392578125,
+            502.2227783203125
+          ],
+          [
+            1067.7789306640625,
+            229.49635314941406,
+            1144.0582275390625,
+            378.0958251953125
+          ]
+        ],
+        "scores": [
+          0.7727722525596619,
+          0.659400463104248
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 135,
+      "timestamp": 4.5,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0136.jpg",
+      "detections": {
+        "boxes": [
+          [
+            618.9119873046875,
+            147.45977783203125,
+            973.4659423828125,
+            503.7940673828125
+          ],
+          [
+            1068.146240234375,
+            228.40213012695312,
+            1142.036376953125,
+            376.3565368652344
+          ]
+        ],
+        "scores": [
+          0.8368445038795471,
+          0.6825745105743408
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 136,
+      "timestamp": 4.533333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0137.jpg",
+      "detections": {
+        "boxes": [
+          [
+            608.5164794921875,
+            144.53709411621094,
+            975.4591064453125,
+            504.574462890625
+          ],
+          [
+            1067.391357421875,
+            224.5767059326172,
+            1140.286376953125,
+            376.73846435546875
+          ]
+        ],
+        "scores": [
+          0.7300993800163269,
+          0.7092894315719604
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 137,
+      "timestamp": 4.566666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0138.jpg",
+      "detections": {
+        "boxes": [
+          [
+            599.9718017578125,
+            144.568359375,
+            973.9708251953125,
+            507.45196533203125
+          ],
+          [
+            1067.435546875,
+            224.53732299804688,
+            1137.7744140625,
+            375.7188415527344
+          ]
+        ],
+        "scores": [
+          0.7508841753005981,
+          0.7167364358901978
+        ],
+        "class_names": [
+          "truck",
+          "person"
+        ],
+        "track_ids": [
+          5,
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 138,
+      "timestamp": 4.6,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0139.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1067.07421875,
+            224.182373046875,
+            1136.31787109375,
+            373.0989990234375
+          ],
+          [
+            594.53857421875,
+            138.5589141845703,
+            969.973876953125,
+            511.02044677734375
+          ]
+        ],
+        "scores": [
+          0.7418608665466309,
+          0.44000089168548584
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 139,
+      "timestamp": 4.633333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0140.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1066.509521484375,
+            223.957763671875,
+            1131.000244140625,
+            371.36505126953125
+          ],
+          [
+            584.2239990234375,
+            139.0662841796875,
+            965.0679931640625,
+            512.9253540039062
+          ]
+        ],
+        "scores": [
+          0.7715815901756287,
+          0.49695876240730286
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 140,
+      "timestamp": 4.666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0141.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1066.673828125,
+            223.785888671875,
+            1127.8046875,
+            371.46209716796875
+          ],
+          [
+            573.37451171875,
+            137.3343505859375,
+            955.3865966796875,
+            517.814453125
+          ]
+        ],
+        "scores": [
+          0.8023239374160767,
+          0.4064309895038605
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 141,
+      "timestamp": 4.7,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0142.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1066.3671875,
+            223.37355041503906,
+            1123.81494140625,
+            370.3431396484375
+          ]
+        ],
+        "scores": [
+          0.8366219997406006
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 142,
+      "timestamp": 4.733333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0143.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1066.2103271484375,
+            222.54330444335938,
+            1120.5933837890625,
+            369.5499572753906
+          ]
+        ],
+        "scores": [
+          0.8421674966812134
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 143,
+      "timestamp": 4.766666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0144.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1066.158203125,
+            222.00738525390625,
+            1118.14306640625,
+            368.20391845703125
+          ],
+          [
+            542.8638916015625,
+            131.9759521484375,
+            940.9039306640625,
+            526.2522583007812
+          ]
+        ],
+        "scores": [
+          0.8325018286705017,
+          0.43480390310287476
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 144,
+      "timestamp": 4.8,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0145.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1065.49658203125,
+            221.8820343017578,
+            1116.838134765625,
+            365.05438232421875
+          ]
+        ],
+        "scores": [
+          0.8146790266036987
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 145,
+      "timestamp": 4.833333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0146.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1063.1400146484375,
+            221.63717651367188,
+            1118.0582275390625,
+            363.5719299316406
+          ],
+          [
+            521.06689453125,
+            127.22688293457031,
+            936.919189453125,
+            532.6759643554688
+          ]
+        ],
+        "scores": [
+          0.8041162490844727,
+          0.6279512047767639
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 146,
+      "timestamp": 4.866666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0147.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1061.5789794921875,
+            221.7542724609375,
+            1121.1160888671875,
+            366.01580810546875
+          ],
+          [
+            509.707275390625,
+            126.96983337402344,
+            933.5062255859375,
+            534.9210205078125
+          ]
+        ],
+        "scores": [
+          0.8091238141059875,
+          0.5100284218788147
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 147,
+      "timestamp": 4.9,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0148.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1061.0567626953125,
+            221.840087890625,
+            1125.0399169921875,
+            370.15802001953125
+          ],
+          [
+            503.9092102050781,
+            123.96684265136719,
+            930.016845703125,
+            539.5665893554688
+          ]
+        ],
+        "scores": [
+          0.7890790700912476,
+          0.36358529329299927
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 148,
+      "timestamp": 4.933333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0149.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1062.40673828125,
+            221.29385375976562,
+            1131.72998046875,
+            368.6114807128906
+          ]
+        ],
+        "scores": [
+          0.7862429022789001
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 149,
+      "timestamp": 4.966666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0150.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1062.20849609375,
+            219.21194458007812,
+            1133.537109375,
+            367.4692077636719
+          ],
+          [
+            478.229736328125,
+            116.23875427246094,
+            921.0235595703125,
+            545.861572265625
+          ]
+        ],
+        "scores": [
+          0.7743674516677856,
+          0.5273029804229736
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 150,
+      "timestamp": 5.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0151.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1054.55712890625,
+            219.09494018554688,
+            1140.59521484375,
+            366.8382873535156
+          ]
+        ],
+        "scores": [
+          0.7562239766120911
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 151,
+      "timestamp": 5.033333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0152.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1050.7138671875,
+            218.41604614257812,
+            1144.7685546875,
+            367.1906433105469
+          ],
+          [
+            459.16778564453125,
+            114.73179626464844,
+            902.9972534179688,
+            554.828125
+          ]
+        ],
+        "scores": [
+          0.7707039713859558,
+          0.5638290047645569
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 152,
+      "timestamp": 5.066666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0153.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1051.490966796875,
+            214.12966918945312,
+            1149.429443359375,
+            365.3103942871094
+          ],
+          [
+            449.02032470703125,
+            112.97779846191406,
+            901.3945922851562,
+            560.394775390625
+          ],
+          [
+            844.6968994140625,
+            250.95870971679688,
+            915.514404296875,
+            374.4350891113281
+          ]
+        ],
+        "scores": [
+          0.8080118894577026,
+          0.4114105999469757,
+          0.39606642723083496
+        ],
+        "class_names": [
+          "person",
+          "truck",
+          "chair"
+        ],
+        "track_ids": [
+          4,
+          5,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 153,
+      "timestamp": 5.1,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0154.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1057.238525390625,
+            211.85284423828125,
+            1151.502685546875,
+            365.49517822265625
+          ],
+          [
+            442.4801025390625,
+            110.6923828125,
+            906.8980712890625,
+            565.4022827148438
+          ]
+        ],
+        "scores": [
+          0.8548345565795898,
+          0.6513869762420654
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 154,
+      "timestamp": 5.133333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0155.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1063.80615234375,
+            209.2744140625,
+            1152.20751953125,
+            364.53448486328125
+          ]
+        ],
+        "scores": [
+          0.8741456270217896
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 155,
+      "timestamp": 5.166666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0156.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1069.8333740234375,
+            207.62362670898438,
+            1154.9351806640625,
+            362.8534240722656
+          ],
+          [
+            417.9449157714844,
+            106.6527099609375,
+            904.1773681640625,
+            576.5339965820312
+          ]
+        ],
+        "scores": [
+          0.8522406220436096,
+          0.5447503328323364
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 156,
+      "timestamp": 5.2,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0157.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1074.70703125,
+            206.83184814453125,
+            1157.27978515625,
+            361.86920166015625
+          ]
+        ],
+        "scores": [
+          0.8736093044281006
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 157,
+      "timestamp": 5.233333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0158.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1079.264404296875,
+            207.35008239746094,
+            1157.32568359375,
+            361.125244140625
+          ],
+          [
+            395.6206359863281,
+            98.1343994140625,
+            890.46875,
+            578.1925048828125
+          ]
+        ],
+        "scores": [
+          0.8663966059684753,
+          0.47336429357528687
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 158,
+      "timestamp": 5.266666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0159.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1081.3956298828125,
+            207.1312713623047,
+            1159.1239013671875,
+            360.45465087890625
+          ]
+        ],
+        "scores": [
+          0.8572407960891724
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 159,
+      "timestamp": 5.3,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0160.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1083.8798828125,
+            207.43017578125,
+            1160.20263671875,
+            360.2994384765625
+          ]
+        ],
+        "scores": [
+          0.8455600738525391
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 160,
+      "timestamp": 5.333333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0161.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1086.689208984375,
+            209.28955078125,
+            1160.220947265625,
+            360.34832763671875
+          ],
+          [
+            351.29254150390625,
+            183.75311279296875,
+            855.1249389648438,
+            578.87890625
+          ]
+        ],
+        "scores": [
+          0.8359665870666504,
+          0.388793408870697
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 161,
+      "timestamp": 5.366666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0162.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1088.06396484375,
+            209.39691162109375,
+            1161.81640625,
+            362.17730712890625
+          ],
+          [
+            336.324951171875,
+            78.0477294921875,
+            872.8377685546875,
+            584.1768798828125
+          ]
+        ],
+        "scores": [
+          0.8114937543869019,
+          0.4956306219100952
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 162,
+      "timestamp": 5.4,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0163.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1092.82275390625,
+            209.17184448242188,
+            1162.550048828125,
+            363.4570007324219
+          ],
+          [
+            318.38470458984375,
+            74.2841796875,
+            848.8901977539062,
+            585.544677734375
+          ]
+        ],
+        "scores": [
+          0.8134238719940186,
+          0.4964368939399719
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 163,
+      "timestamp": 5.433333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0164.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1096.9002685546875,
+            209.98358154296875,
+            1165.6759033203125,
+            364.906982421875
+          ],
+          [
+            748.777587890625,
+            256.15045166015625,
+            852.247802734375,
+            401.70111083984375
+          ]
+        ],
+        "scores": [
+          0.8577254414558411,
+          0.41839399933815
+        ],
+        "class_names": [
+          "person",
+          "chair"
+        ],
+        "track_ids": [
+          4,
+          null
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 164,
+      "timestamp": 5.466666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0165.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1100.0980224609375,
+            208.3096923828125,
+            1169.3807373046875,
+            364.8572998046875
+          ],
+          [
+            291.5950012207031,
+            69.45025634765625,
+            837.499755859375,
+            594.39208984375
+          ]
+        ],
+        "scores": [
+          0.8605624437332153,
+          0.3931148946285248
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 165,
+      "timestamp": 5.5,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0166.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1104.6695556640625,
+            207.4184112548828,
+            1171.5638427734375,
+            364.29400634765625
+          ]
+        ],
+        "scores": [
+          0.8083504438400269
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 166,
+      "timestamp": 5.533333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0167.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1111.26416015625,
+            206.15280151367188,
+            1178.1591796875,
+            363.9531555175781
+          ]
+        ],
+        "scores": [
+          0.8282400369644165
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 167,
+      "timestamp": 5.566666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0168.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1116.7041015625,
+            202.00619506835938,
+            1187.03515625,
+            362.2736511230469
+          ],
+          [
+            252.50390625,
+            62.46612548828125,
+            830.29248046875,
+            585.3056640625
+          ]
+        ],
+        "scores": [
+          0.8554422855377197,
+          0.38126030564308167
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 168,
+      "timestamp": 5.6,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0169.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1124.29833984375,
+            197.6070556640625,
+            1194.0341796875,
+            359.0791015625
+          ],
+          [
+            244.00732421875,
+            54.92828369140625,
+            823.09423828125,
+            582.1961669921875
+          ]
+        ],
+        "scores": [
+          0.8568816184997559,
+          0.39356639981269836
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 169,
+      "timestamp": 5.633333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0170.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1131.437744140625,
+            194.318115234375,
+            1206.444091796875,
+            357.532470703125
+          ],
+          [
+            234.38641357421875,
+            58.02392578125,
+            818.0012817382812,
+            583.386962890625
+          ]
+        ],
+        "scores": [
+          0.88223797082901,
+          0.5677664875984192
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 170,
+      "timestamp": 5.666666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0171.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1140.453369140625,
+            191.2718048095703,
+            1222.477294921875,
+            356.29949951171875
+          ]
+        ],
+        "scores": [
+          0.8624423146247864
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 171,
+      "timestamp": 5.7,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0172.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1148.586181640625,
+            187.82089233398438,
+            1236.73291015625,
+            355.9353942871094
+          ],
+          [
+            216.89303588867188,
+            48.1129150390625,
+            826.1455078125,
+            589.73486328125
+          ]
+        ],
+        "scores": [
+          0.8660329580307007,
+          0.4555015563964844
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 172,
+      "timestamp": 5.733333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0173.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1159.524169921875,
+            185.09429931640625,
+            1247.723388671875,
+            355.425048828125
+          ]
+        ],
+        "scores": [
+          0.8554442524909973
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 173,
+      "timestamp": 5.766666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0174.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1167.9215087890625,
+            183.634033203125,
+            1269.4505615234375,
+            353.024169921875
+          ]
+        ],
+        "scores": [
+          0.8408068418502808
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 174,
+      "timestamp": 5.8,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0175.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1177.683349609375,
+            182.34646606445312,
+            1279.138916015625,
+            352.0135803222656
+          ]
+        ],
+        "scores": [
+          0.894059419631958
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 175,
+      "timestamp": 5.833333333333333,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0176.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1192.00244140625,
+            181.40399169921875,
+            1279.26806640625,
+            351.8936767578125
+          ]
+        ],
+        "scores": [
+          0.8879872560501099
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 176,
+      "timestamp": 5.866666666666666,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0177.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1204.147216796875,
+            177.31422424316406,
+            1279.325439453125,
+            354.8675537109375
+          ]
+        ],
+        "scores": [
+          0.8728269338607788
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 177,
+      "timestamp": 5.9,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0178.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1217.5054931640625,
+            174.52212524414062,
+            1279.6788330078125,
+            353.9721984863281
+          ]
+        ],
+        "scores": [
+          0.8210196495056152
+        ],
+        "class_names": [
+          "person"
+        ],
+        "track_ids": [
+          4
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 178,
+      "timestamp": 5.933333333333334,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0179.jpg",
+      "detections": {
+        "boxes": [
+          [
+            1232.9677734375,
+            200.8103790283203,
+            1279.675048828125,
+            350.37652587890625
+          ],
+          [
+            142.13330078125,
+            31.6939697265625,
+            816.7723388671875,
+            595.880859375
+          ]
+        ],
+        "scores": [
+          0.6796054244041443,
+          0.44288286566734314
+        ],
+        "class_names": [
+          "person",
+          "truck"
+        ],
+        "track_ids": [
+          4,
+          5
+        ]
+      },
+      "agents": [
+        "person_4"
+      ],
+      "objects": [
+        "truck_5"
+      ],
+      "interactions": []
+    },
+    {
+      "frame_idx": 179,
+      "timestamp": 5.966666666666667,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0180.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    },
+    {
+      "frame_idx": 180,
+      "timestamp": 6.0,
+      "frame_path": "C:\\Users\\PC\\Desktop\\hack_mit\\task1_2\\frames\\frame_0181.jpg",
+      "detections": {
+        "boxes": [],
+        "scores": [],
+        "class_names": [],
+        "track_ids": []
+      },
+      "agents": [],
+      "objects": [],
+      "interactions": []
+    }
+  ]
+}
