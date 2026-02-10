@@ -1,0 +1,1812 @@
+[
+  {
+    "time_sec": 0,
+    "frame": "./frames/frame_0001.jpg",
+    "objects": [
+      {
+        "bbox": [
+          0,
+          864,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          33,
+          0,
+          556,
+          33
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          477,
+          38,
+          537,
+          83
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          94,
+          139,
+          450,
+          858
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          106,
+          815,
+          494,
+          872
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          550,
+          724,
+          606,
+          766
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          399,
+          785,
+          427,
+          821
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          560,
+          18,
+          603
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          549,
+          810,
+          607,
+          850
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          494,
+          825,
+          529,
+          862
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          549,
+          851,
+          607,
+          892
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          19,
+          559,
+          47,
+          602
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          587,
+          191,
+          607,
+          236
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          591,
+          0,
+          607,
+          49
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          400,
+          169,
+          429,
+          214
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          23,
+          734,
+          50,
+          778
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          550,
+          766,
+          607,
+          807
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          460,
+          426,
+          477,
+          476
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          538,
+          191,
+          585,
+          236
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          27,
+          864,
+          52,
+          907
+        ],
+        "type": "passage",
+        "state": "free"
+      },
+      {
+        "bbox": [
+          551,
+          549,
+          597,
+          592
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          515,
+          45,
+          556
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          220,
+          36,
+          475,
+          83
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          0,
+          470,
+          43,
+          513
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          0,
+          778,
+          49,
+          821
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      }
+    ]
+  },
+  {
+    "time_sec": 1,
+    "frame": "./frames/frame_0002.jpg",
+    "objects": [
+      {
+        "bbox": [
+          0,
+          868,
+          605,
+          1079
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          45,
+          0,
+          568,
+          31
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          488,
+          33,
+          550,
+          80
+        ],
+        "type": "obstacle",
+        "state": "non_blocking"
+      },
+      {
+        "bbox": [
+          559,
+          726,
+          607,
+          769
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          20,
+          330,
+          47,
+          374
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          57,
+          27,
+          230,
+          78
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          5,
+          468,
+          50,
+          511
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          557,
+          812,
+          607,
+          854
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          555,
+          855,
+          607,
+          895
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          502,
+          829,
+          536,
+          866
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          568,
+          190,
+          597,
+          235
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          558,
+          25,
+          601
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          0,
+          863,
+          31,
+          906
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          370,
+          763,
+          391,
+          799
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          510,
+          210,
+          546,
+          254
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          8,
+          236,
+          43,
+          282
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          558,
+          769,
+          607,
+          810
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          28,
+          733,
+          55,
+          776
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          329,
+          18,
+          374
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          373,
+          192,
+          395,
+          229
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          158,
+          783,
+          501,
+          871
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          456,
+          476,
+          481,
+          507
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          422,
+          48,
+          465
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          566,
+          283,
+          607,
+          328
+        ],
+        "type": "door",
+        "state": "closed"
+      }
+    ]
+  },
+  {
+    "time_sec": 2,
+    "frame": "./frames/frame_0003.jpg",
+    "objects": [
+      {
+        "bbox": [
+          0,
+          857,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          53,
+          0,
+          567,
+          24
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          2,
+          557,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          127,
+          545,
+          515,
+          867
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          354,
+          247,
+          447,
+          340
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          494,
+          23,
+          556,
+          71
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          327,
+          30,
+          371
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          128,
+          110,
+          357,
+          874
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          128,
+          393,
+          522,
+          865
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          0,
+          554,
+          38,
+          597
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          17,
+          232,
+          52,
+          279
+        ],
+        "type": "passage",
+        "state": "potentially_blocked"
+      },
+      {
+        "bbox": [
+          0,
+          233,
+          17,
+          279
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          860,
+          47,
+          902
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          17,
+          464,
+          62,
+          507
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          38,
+          553,
+          66,
+          597
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          465,
+          17,
+          508
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          30,
+          327,
+          57,
+          371
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          518,
+          201,
+          553,
+          244
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          516,
+          818,
+          551,
+          855
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          573,
+          716,
+          607,
+          758
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          242,
+          144,
+          505,
+          397
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          238,
+          25,
+          554,
+          73
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          64,
+          26,
+          237,
+          75
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          518,
+          250,
+          554,
+          329
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          355,
+          276,
+          422,
+          340
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          2,
+          773,
+          68,
+          817
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          576,
+          180,
+          605,
+          225
+        ],
+        "type": "passage",
+        "state": "free"
+      },
+      {
+        "bbox": [
+          465,
+          463,
+          491,
+          497
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          555,
+          180,
+          606,
+          238
+        ],
+        "type": "passage",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          573,
+          801,
+          607,
+          842
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          42,
+          728,
+          69,
+          772
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          571,
+          845,
+          607,
+          884
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          643,
+          67,
+          686
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          600,
+          65,
+          641
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          555,
+          277,
+          575,
+          326
+        ],
+        "type": "obstacle",
+        "state": "non_blocking"
+      },
+      {
+        "bbox": [
+          166,
+          111,
+          505,
+          397
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          123,
+          842,
+          152,
+          868
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          120,
+          147,
+          136,
+          246
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          123,
+          248,
+          139,
+          313
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          516,
+          373,
+          553,
+          413
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          465,
+          416,
+          491,
+          464
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          574,
+          760,
+          607,
+          801
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          88,
+          830,
+          120,
+          869
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          576,
+          273,
+          607,
+          317
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          555,
+          186,
+          574,
+          239
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          135,
+          680,
+          151,
+          842
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          464,
+          415,
+          491,
+          498
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          47,
+          859,
+          73,
+          902
+        ],
+        "type": "passage",
+        "state": "free"
+      }
+    ]
+  },
+  {
+    "time_sec": 3,
+    "frame": "./frames/frame_0004.jpg",
+    "objects": [
+      {
+        "bbox": [
+          0,
+          858,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          559,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          62,
+          0,
+          576,
+          21
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          3,
+          637,
+          71,
+          681
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          23,
+          460,
+          67,
+          503
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          162,
+          102,
+          309,
+          873
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          36,
+          322,
+          63,
+          367
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          461,
+          22,
+          503
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          130,
+          543,
+          516,
+          862
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          503,
+          21,
+          565,
+          68
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          229,
+          23,
+          275
+        ],
+        "type": "passage",
+        "state": "free"
+      },
+      {
+        "bbox": [
+          245,
+          21,
+          502,
+          69
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          525,
+          199,
+          561,
+          241
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          346,
+          273,
+          427,
+          338
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          0,
+          549,
+          42,
+          592
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          46,
+          724,
+          73,
+          768
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          323,
+          35,
+          367
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          519,
+          819,
+          553,
+          855
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          468,
+          462,
+          495,
+          496
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          126,
+          143,
+          163,
+          243
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          130,
+          310,
+          166,
+          345
+        ],
+        "type": "obstacle",
+        "state": "non_blocking"
+      },
+      {
+        "bbox": [
+          326,
+          412,
+          369,
+          517
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          311,
+          243,
+          346,
+          273
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          72,
+          22,
+          243,
+          112
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          312,
+          385,
+          433,
+          549
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          576,
+          717,
+          607,
+          759
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          49,
+          853,
+          75,
+          897
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          594,
+          69,
+          636
+        ],
+        "type": "passage",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          132,
+          676,
+          172,
+          855
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          574,
+          846,
+          607,
+          886
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          72,
+          22,
+          244,
+          70
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          138,
+          546,
+          171,
+          676
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          576,
+          802,
+          607,
+          843
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          130,
+          246,
+          165,
+          310
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          468,
+          414,
+          496,
+          496
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          4,
+          768,
+          72,
+          811
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          24,
+          228,
+          58,
+          275
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          506,
+          68,
+          548
+        ],
+        "type": "door",
+        "state": "closed"
+      }
+    ]
+  },
+  {
+    "time_sec": 4,
+    "frame": "./frames/frame_0005.jpg",
+    "objects": [
+      {
+        "bbox": [
+          0,
+          843,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          543,
+          606,
+          1079
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          143,
+          85,
+          262,
+          858
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          0,
+          306,
+          23,
+          352
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          494,
+          6,
+          557,
+          55
+        ],
+        "type": "obstacle",
+        "state": "non_blocking"
+      },
+      {
+        "bbox": [
+          22,
+          307,
+          49,
+          353
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          574,
+          166,
+          604,
+          213
+        ],
+        "type": "passage",
+        "state": "free"
+      },
+      {
+        "bbox": [
+          187,
+          483,
+          250,
+          548
+        ],
+        "type": "obstacle",
+        "state": "non_blocking"
+      },
+      {
+        "bbox": [
+          0,
+          536,
+          30,
+          580
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          561,
+          788,
+          607,
+          828
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          336,
+          234,
+          441,
+          325
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          504,
+          803,
+          538,
+          840
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          235,
+          5,
+          551,
+          54
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          516,
+          187,
+          551,
+          230
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          336,
+          261,
+          418,
+          325
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          119,
+          295,
+          166,
+          331
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          138,
+          425,
+          169,
+          549
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          561,
+          703,
+          607,
+          744
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          116,
+          126,
+          163,
+          227
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          118,
+          229,
+          162,
+          295
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          11,
+          212,
+          46,
+          259
+        ],
+        "type": "passage",
+        "state": "free"
+      },
+      {
+        "bbox": [
+          458,
+          449,
+          484,
+          485
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          37,
+          840,
+          63,
+          882
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          30,
+          535,
+          58,
+          580
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          459,
+          402,
+          486,
+          450
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          140,
+          547,
+          170,
+          716
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          132,
+          232,
+          145,
+          294
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          0,
+          1053,
+          25,
+          1079
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      },
+      {
+        "bbox": [
+          205,
+          113,
+          272,
+          125
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          118,
+          532,
+          503,
+          847
+        ],
+        "type": "door",
+        "state": "open"
+      },
+      {
+        "bbox": [
+          315,
+          400,
+          359,
+          505
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          140,
+          440,
+          170,
+          716
+        ],
+        "type": "obstacle",
+        "state": "blocking"
+      },
+      {
+        "bbox": [
+          79,
+          811,
+          110,
+          850
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          260,
+          231,
+          282,
+          297
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          79,
+          794,
+          110,
+          850
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          563,
+          616,
+          606,
+          659
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          577,
+          72,
+          607,
+          126
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          573,
+          261,
+          607,
+          306
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          559,
+          829,
+          607,
+          870
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          296,
+          232,
+          443,
+          350
+        ],
+        "type": "obstacle",
+        "state": "non_blocking"
+      },
+      {
+        "bbox": [
+          263,
+          225,
+          302,
+          354
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          115,
+          823,
+          171,
+          848
+        ],
+        "type": "door",
+        "state": "closed"
+      },
+      {
+        "bbox": [
+          560,
+          746,
+          607,
+          787
+        ],
+        "type": "door",
+        "state": "slightly_open"
+      }
+    ]
+  }
+]
